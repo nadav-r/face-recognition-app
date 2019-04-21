@@ -36,12 +36,4 @@ app.listen(process.env.PORT || 3000,()=>{
 });
 
 
-/*
-	knex('users')
-  .where('id', id)
-  .update({
-    'count': knex.raw('count + 1')
-  });	
-	
 
-*/
